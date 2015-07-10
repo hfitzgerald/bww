@@ -1,0 +1,1426 @@
+
+body, html{
+	min-width:0;
+}
+
+.coke_brand, .headline{
+	cursor: pointer;
+}
+
+p{margin: 0px;}
+.leader .items{
+	width:275px;
+	margin:0px auto;	
+}
+
+.ruleSet{
+	text-align:justify;
+	font-size:10px;
+	margin-top:16px;
+}
+
+.standings #users_leaderboard.challenge .user .link {background-color:transparent;} 
+
+.zipbox{margin-left:172px; margin-top:8px; text-align:center; border:1px solid #000;}
+
+.four_oh_four_image{display:none;}
+/*LB*/
+.inline-block {
+  display: -moz-inline-stack;
+  display: inline-block;
+}
+
+.ie6 .inline-block, .ie7 .inline-block {
+  /* ie hacks */
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+
+/**/
+
+#users_leaderboard {
+  font-family: octin-college,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  z-index: 1;
+  width:100%;
+  padding-bottom:4px;
+}
+
+#users_leaderboard .user {
+  font-family: ff-basic-gothic-web-pro,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  width: 260px;
+  height: 35px;
+  padding: 5px;
+  background-image: url(/images/leaderboard_background.png);
+  margin: 0 5px 5px;
+  position: relative;
+  z-index: 2;
+}
+
+#users_leaderboard .user .name { 
+  font-size: 14px;
+  color: #000;
+}
+
+#users_leaderboard .user .location {
+  font-size: 11px;
+  color: #636363;
+  text-decoration:none;
+}
+
+#users_leaderboard .user .info {
+  left: 77px;
+  position: absolute;
+  top: 6px;
+}
+
+#users_leaderboard .user .link {
+  display: block;
+  width: 34px;
+  position: absolute;
+  top: 5px;
+  left: 35px;
+  background-color: #fff;
+}
+
+#users_leaderboard .user .link .icon {
+  display: block;
+  width: 34px;
+}
+
+#users_leaderboard .rank_text {
+  font-size: 30px;
+  width: 35px;
+  color: #000;
+  position: absolute;
+  display: block;
+  font-family: octin-college,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#users_leaderboard .user .points {
+  width: 57px;
+  height: 33px;
+  background:url(/images/pointbg.png) #393939;
+  position: absolute;
+  right: 5px;
+  top: 6px;
+  padding: 0px 5px;
+}
+
+#users_leaderboard .user .points .text {
+  font-family: octin-college,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  float: right;
+  color: #f8d805;
+}
+.challenge .items {
+	width: 300px;
+	margin: 0px auto;
+}
+.L_arrow {
+	height: 44px;
+	margin-top: 50px;
+	width: 38px;
+	background: url(/images/scroll_arrows.png);
+	cursor: pointer;
+	float: left;
+	margin-right: 5px;
+}
+.L_arrow:hover {
+	background-position: 0px -44px;
+}
+.cScreen {
+	float: left;
+	width: 206px;
+	margin-bottom: 5px;
+	height: 146px;
+	overflow: hidden;
+	background: url(/images/challenge_scroll.jpg);
+}
+.R_arrow {
+	float: left;
+	margin-top: 50px;
+	height: 44px;
+	width: 38px;
+	background: url(/images/scroll_arrows.png) 40px 0px;
+	cursor: pointer;
+}
+.R_arrow:hover {
+	background-position: 40px -44px;
+}
+.view_all {
+	width: 141px;
+	height: 42px;
+	margin: 0px auto 0px auto;
+	background: url(/images/all_arrows.png) top no-repeat;
+	display: block;
+}
+.view_all:hover {
+	background-position: bottom;
+}
+#scvngr {
+	color: #3B5998;
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	height: 25px;
+	width: 134px;
+	margin: 0px auto;
+	top: 6px;
+}
+#scvngr #icon {
+	background-image: url("/images/svngrICON.png");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	height: 25px;
+	width: 35px;
+}
+#scvngr #icon {
+}
+#scvngr #totalC {
+	background-color: #EFEFEF;
+	background-position: 0 0;
+	border-bottom: 1px solid #CAD4E5;
+	border-right: 1px solid #CAD4E5;
+	border-top: 1px solid #CAD4E5;
+	float: left;
+	height: 14px;
+	margin-top: 3px;
+	padding: 1px 5px;
+	text-align: center;
+}
+#scvngr #txt {
+	display: block;
+	float: left;
+	padding: 5px 0 5px 10px;
+	text-align: center;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.search_btn {
+	background: url(/images/desktop/search_sp.png) no-repeat;
+	display: block;
+	height: 23px;
+	width: 70px;
+	text-indent: 999px;
+	margin-left: 169px;
+	margin-top: 2px;
+	overflow: hidden;
+	cursor:pointer;
+}
+.search_btn:hover {
+	background-position: bottom;
+}
+.footer .base .container{
+	width:265px;
+	margin:0px auto;
+}
+.base .content{
+	margin-bottom:10px;
+	margin-top:10px;
+	width:265px;
+	line-height:8px;
+	text-align:justify;
+}
+.footer .menu a {
+	float: left;
+	width: 95px;
+	color: #000;
+	font-family: octin-college, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 11px;
+	text-align: center;
+	text-decoration: none;
+	height: 23px;
+	line-height: 23px;
+	margin: 0px 4px 13px 4px;
+}
+.footer .menu a:hover {
+	background: #f4be01;
+}
+.footer .menu {
+	margin: 0px auto;
+	background: url(/images/desktop/shadow.png) no-repeat center;
+	width: 220px;
+}
+.items .download {
+	background: url(/images/mobile/download.png) no-repeat top;
+	height: 62px;
+	display: block;
+}
+.items .complete{
+	background:url(/images/mobile/complete.png) no-repeat top;
+	height:53px;
+	display:block;
+}
+.items .win{
+	background:url(/images/mobile/win.png) no-repeat top;	
+	height:73px;
+	display:block;
+}
+.clr{
+	clear:both;	
+}
+.cokeSmall img{
+	width:100%;	
+}
+.bww_locator{
+	margin:24px auto 0px auto;
+
+	height:59px;
+	width:250px;
+	background:url(/images/bww_locator.png) no-repeat;	
+}
+.footer .social{
+	width:213px;
+	overflow:hidden;
+	margin:20px auto 21px auto;
+	height:77px;
+}
+.footer{
+	border-top:#ca5202 solid 1px;
+	background:url(/images/foot_grass.jpg) center;	
+	
+}
+.footer .base{
+	background:url(/images/foot_base_bg.png);
+	text-align:center;
+	color:#fff;
+	padding:4px;
+	line-height:22px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:8px;	
+}
+.footer .menu a{
+	
+	background:url(/images/footer_button_bg.png);	
+}
+.items{
+	height:181px;	
+}
+body{
+	background:#f8d805;
+	margin:0px;
+	padding:0px;	
+}
+#bww .col_container .col{
+		width:320px;
+		height:412px;
+}
+.top{
+		display:none;	
+		background:#000;
+}
+.top .menu a{
+	color:#939393;	
+	text-decoration:none;
+	font-family: ff-basic-gothic-web-pro,sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	line-height:23px;
+	padding-left:7px;
+	padding-right:8px;
+}
+.top .menu a:hover{
+	color:#f8d805;	
+}	
+.top .menu{
+	height:22px;
+	font-size:13px;
+	text-align:center;
+
+}
+/* Smartphones (portrait and landscape) ------------------------------------------------------------------ G*/
+@media only screen and (min-width:320px) and (max-width:480px) {
+	#bww .col_container .col{
+		width:100%;	
+	}
+	.top{display:block;
+	}
+}
+
+@media only screen and (min-width:480px) and (max-width:975px){
+	
+	
+	.standings {width:450px; margin:0px auto;}
+	.standings .wrap {overflow:hidden; height:303px; position:relative;}
+	.standings .players{ float:left; background:url(/images/desktop/players.png) no-repeat  8px 0px ; margin-right:16px; padding-top:25px; padding-bottom:30px;}
+	.standings .restaurants{ float:left; background:url(/images/desktop/restaurants.png)  8px 0px  no-repeat; padding-top:25px;  }
+	.standings .standings_header { position:relative; margin-bottom:33px; padding-top:40px}
+	.standings .player, .standings .restaurant, .standings .challenge{position:relative;}
+	.standings .nbtn {cursor:pointer; width:75px; height:29px; background:url(/images/nfive.png) top no-repeat; float:right; margin-right:17px; margin-top:10px;}
+	.standings .nbtn:hover, .standings .pbtn:hover{background-position:bottom;}
+	.standings .pbtn {display:none; cursor:pointer;  width:75px; height:29px; background:url(/images/pfive.png) top no-repeat; float:left; margin-left:10px; margin-top:10px;}
+	.standings .challenges{  background:url(/images/desktop/challenges.png) 8px 0px no-repeat; padding-top:25px; margin-top:30px;}
+	.standings .challenge .description { display:none;}
+
+	
+	
+	input.styled { display: none; } select.styled { position: absolute; top:135px; height:30px; right:10px; width: 109px; opacity: 0; filter: alpha(opacity=0); z-index: 5; } .disabled { opacity: 0.5; filter: alpha(opacity=50); }
+
+	
+	.select {
+		
+		font-family:octin-college, sans-serif;
+		font-style:normal;
+		font-weight:400;
+		color:#F8D805;
+		height:38px;
+	  position: absolute;
+	  right:0px;
+	  top:131px;
+	  width: 102px;
+		line-height:38px;
+	  padding: 0 0px 0 20px;
+	  background: url(/images/desktop/dropdown.png) no-repeat;
+	  overflow: hidden;
+	}
+	
+	
+	
+	
+	
+	
+			.standings #users_leaderboard {
+		 	 font-family: octin-college,sans-serif;
+		 	 font-style: normal;
+		 	 font-weight: 400;
+		 	 z-index: 1;
+		 	 width:100%;
+		 	 padding-bottom:60px;
+			}
+		
+			.standings #users_leaderboard .user {
+		  	font-family: ff-basic-gothic-web-pro,sans-serif;
+		  	font-style: normal;
+		  	font-weight: 500;
+		  	width: 433px;
+		  	height: 48px;
+		  	padding: 5px;
+		 	background-image: url(/images/desktop/leaderboard_wide.png);
+		  	margin: 0 5px 3px;
+		  	position: relative;
+		  	z-index: 2;
+			}
+		
+			.standings #users_leaderboard .user .name { 
+			  font-size: 16px;
+			  color: #000;
+			}
+			
+			.standings #users_leaderboard .user .location {
+			  font-size: 11px;
+			  color: #636363;
+			  text-decoration:none;
+			}
+			
+			.standings #users_leaderboard .user .info {
+			  left: 119px;
+			  position: absolute;
+			  top: 12px;
+			}
+			
+			.standings #users_leaderboard.restaurant .user .info {
+			  left: 71px;
+			  position: absolute;
+			  top: 18px;
+			}			
+			.standings #users_leaderboard .user .link {
+			  display: block;
+			  width: 34px;
+			  position: absolute;
+			  top: 10px;
+			  left: 71px;
+			  background-color: #fff;
+			}
+			
+			.standings #users_leaderboard .user .link .icon {
+			  display: block;
+			  width: 34px;
+			}
+			
+			.standings #users_leaderboard .rank_text {
+			  font-size: 37px;
+			  width: 35px;
+			  color: #000;
+			  left:20px;
+			  top:5px;
+			  position: absolute;
+			  display: block;
+			  font-family: octin-college,sans-serif;
+			  font-style: normal;
+			  font-weight: 400;
+			}
+			
+			.standings #users_leaderboard .user .points {
+			  width: 84px;
+			  height: 42px;
+			  background:url(/images/desktop/big_box.png) no-repeat #393939;
+			  position: absolute;
+			  right: 17px;
+			  top: 9px;
+			  padding: 0px 5px;
+			}
+			
+			.standings #users_leaderboard .user .points .text {
+			  font-family: octin-college,sans-serif;
+			  font-style: normal;
+			  font-weight: 400;
+			  font-size: 30px;
+			  line-height: 43px;
+			  float: right;
+			  color: #f8d805;
+			}
+			.challenge .items {
+				width: 300px;
+				margin: 0px auto;
+			}
+			.standings #scvngr {
+				color: #3B5998;
+				font-family: Tahoma, sans-serif;
+				font-size: 11px;
+				height: 25px;
+				width: 134px;
+				margin: 0px auto;
+				top: 6px;
+			}
+			.standings #scvngr #icon {
+				background-image: url("/images/svngrICON.png");
+				background-position: 0 0;
+				background-repeat: no-repeat;
+				display: block;
+				float: left;
+				height: 25px;
+				width: 35px;
+			}
+		
+			.standings #scvngr #totalC {
+				background-color: #EFEFEF;
+				background-position: 0 0;
+				border-bottom: 1px solid #CAD4E5;
+				border-right: 1px solid #CAD4E5;
+				border-top: 1px solid #CAD4E5;
+				float: left;
+				height: 14px;
+				margin-top: 3px;
+				padding: 1px 5px;
+				text-align: center;
+			}
+			.standings #scvngr #txt {
+				display: block;
+				float: left;
+				padding: 5px 0 5px 10px;
+				text-align: center;
+			}
+	
+	
+	
+}
+
+
+/* Smartphones (landscape) ------------------------------------------------------------------------------------- G*/
+@media only screen and (min-width:401px) and (max-width:975px) {
+	
+	#bww.subpage .header{
+		height:40px;
+	}
+	.rules_title{background:url(/images/desktop/rules_header.png) 0px 60% no-repeat; margin-left:3%; height:140px;}
+	.rules_food{display:none;}
+	.rules_content{font-family:Tahoma, sans-serif; margin:0px 3%; background:#fff; color:#000; padding:33px;}
+	.rules_head{font-weight:700; font-size:12px; text-align:center;}
+	#bww.rules .col_container .wrapper {padding-bottom:3%;}
+	
+	
+	.challenges_container{padding-top:30px; padding-bottom:60px; min-width:300px;}
+	.challenges_header img {width:90%; margin:0px 3% 14px 3%;  max-height:70px; max-width:380px;}
+	.challenges_float{display:none;}
+	.challenges_container .chImg{width:30%; margin:1.444%; }
+	
+	.four_oh_four{margin:0px auto; padding-bottom:70px; position:relative; }
+	.four_oh_four_image {width:68%; max-width:650px; display:block; padding-top:30px; margin:0px 16%;} 
+	.fourbtn{ position:absolute; top:51%;display:block; background:url(/images/404_arrow.png) top no-repeat; height:109px; width:280px; left:47%; margin:0px auto;}
+	.fourbtn:hover{ background-position: bottom; }
+	
+	.standings #users_leaderboard.challenge .user .link {top:6px; left:57px;} 
+	.standings #users_leaderboard.challenge .user .link img {width:auto;}
+	
+
+	.top .menu{
+		font-size:15px;	
+	}
+	.headline .mobile img{
+		width:100%;	
+	}
+	.headline .mobile{
+		margin-left:10%
+	}
+	.headline{
+	width:56%;	
+	}	
+	.top .content {
+		width:70%;	
+		max-width:500px;
+		min-width:365px;
+	
+	}
+	.cokeSmall img{
+		width:52%;
+		margin-left:5%;
+	}	
+	#bww .header{
+	background:url(/images/desktop/bww_header.jpg) no-repeat 23% 16px;
+	height:370px;
+	}
+	
+	#bww .how .poster{
+		height:205px;
+		background:url(/images/mobile/posters.jpg) -40px -210px no-repeat;	
+	}
+	#bww .leader .poster{
+		height:205px;
+		background:url(/images/mobile/posters.jpg) no-repeat -360px -210px;	
+	}	
+	#bww .challenge .poster{
+		height:185px;
+		background:url(/images/mobile/posters.jpg) no-repeat -680px -210px;	
+	}
+	.top{
+		display:block;
+	}
+	.coke_brand{
+		width:35%;
+		float:left;
+	}
+	.coke_brand img{
+		width:100%;
+		padding-top:10px;
+		padding-bottom:32px;
+	}	
+	.top .content{	
+		margin:30px auto 0px auto;
+	}	
+	.headline{	
+	float:left;
+	margin-top:20px;
+	}
+	.top .menu{
+		background:#272727;
+		height:45px;
+		min-width:268px;
+	}
+	.top .menu a{
+		color:#fff;
+		line-height:45px;	
+		padding-left:18px;
+		padding-right:18px;
+	}
+	.m, .l{
+		border-right:1px solid #ccc;	
+	}
+	.header .menu a {
+		text-align: center;
+		font-family: ff-basic-gothic-web-pro, sans-serif;
+		font-style: normal;
+		font-weight: 700;
+		color: #000;
+		font-size: 13px;
+		width: 24%;
+		float: left;
+		text-decoration: none;
+		line-height: 36px;
+		border-right: 1px solid #e4bc0b;
+		border-left: 1px solid #f3d663;
+	}
+	.header .menu a:hover {
+		color: #df0b15;
+	}
+	.header .menu .last {
+		border-right: none;
+	}
+	.header .menu .first {
+		border-left: none;
+	}
+	#bww .how .poster {
+		height: 205px;
+		background: url(/images/mobile/posters.jpg) no-repeat;
+	}
+	.footer {
+		padding-top: 20px;
+	}
+	#bww .leader .poster {
+		height: 205px;
+		background: url(/images/mobile/posters.jpg) no-repeat -321px 0px;
+	}
+	#bww .challenge .poster {
+		height: 205px;
+		background: url(/images/mobile/posters.jpg) no-repeat -640px 0px;
+	}
+	#bww .col_container {
+		background: url(/images/mobile/top_loop.jpg) repeat-x top;
+	}
+	#bww .col_container .col {
+		width: 320px;
+		margin: 0px auto;
+		height: 414px;
+	}
+	.header .menu {
+		height:38px;	
+		width:100%;
+		border-bottom: 1px solid #ffed77;
+		border-top: 1px solid #ffed77;
+		background:url(/images/mobile/menu_loop.jpg) top;
+	}
+		.divider{
+		height:4px;
+		width:320px;
+		margin:8px auto;
+		background:url(/images/mobile/divider.png) no-repeat center;	
+	}
+	.footer .social{
+		margin:40px auto 0px auto;	
+	}
+	.col_container .wrapper{
+		background:url(/images/mobile/low_texture.jpg) repeat-x bottom;	
+	}
+	.top{
+		display:block;
+		background:url(/images/mobile/topgrad.png) #000 no-repeat bottom;
+		}
+}
+
+/*-------------------------------------------------*/
+@media only screen and (max-width:709px){
+	
+	.challenges_container .chImg{width:46%;}
+}
+
+@media only screen and (max-width:605px){
+	.fourbtn{ position:static; }
+	.four_oh_four{padding-bottom:22px;}
+}
+
+@media only screen and (max-width:459px){
+	
+	.challenges_container .chImg{width:73%; margin:2% 13%;}
+}
+
+@media only screen and (max-width:479px){
+
+	.standings {width:280px; margin:0px auto;}
+	.standings .challenge .description { display:none;}
+	.standings_header img {width:100%;}
+	.standings {
+	width : 280px;
+margin : 0 auto;
+}
+.standings .challenge .description {
+display : none;
+}
+.standings_header img {
+width : 100%;
+}
+#users_leaderboard .user .name {
+font-size : 12px;
+}
+#users_leaderboard .user .location {
+font-size : 10px;
+}
+.standings #users_leaderboard.challenge .user .link {
+display : none;
+}
+.standings #users_leaderboard.challenge .user .info {
+left : 42px;
+}
+.standings .wrap {
+overflow : hidden;
+height : 265px;
+position : relative;
+}
+.standings .players {
+float : left;
+background : url(/images/desktop/players.png) no-repeat 8px 0;
+width : 280px;
+margin-right : 16px;
+padding-top : 25px;
+padding-bottom : 30px;
+}
+.standings .restaurants {
+float : left;
+background : url(/images/desktop/restaurants.png) no-repeat 8px 0;
+width : 280px;
+padding-top : 25px;
+}
+.standings .challenges {
+background : url(/images/desktop/challenges.png) no-repeat 8px 0;
+padding-top : 25px;
+margin-top : 30px;
+width : 280px;
+padding-bottom:30px;
+}
+.standings .standings_header {
+position : relative;
+margin-bottom : 33px;
+padding-top : 40px;
+}
+.standings .player, .standings .restaurant, .standings .challenge {
+position : relative;
+}
+.standings .nbtn {
+cursor : pointer;
+width : 75px;
+height : 29px;
+background : url(/images/nfive.png) no-repeat top;
+float : right;
+margin-right : 17px;
+margin-top : 10px;
+}
+.standings .nbtn:hover, .standings .pbtn:hover {
+background-position : bottom;
+}
+.standings .pbtn {
+display : none;
+cursor : pointer;
+width : 75px;
+height : 29px;
+background : url(/images/pfive.png) no-repeat top;
+float : left;
+margin-left : 10px;
+margin-top : 10px;
+}
+.standings .info .name {
+white-space : nowrap;
+width : 144px;
+display : block;
+overflow : hidden;
+}
+.standings .challenge .description {
+display : none;
+}
+#users_leaderboard.restaurant .user .info {
+left : 45px;
+top : 12px;
+}
+#users_leaderboard .expanded .info {
+left : 89px;
+}
+#users_leaderboard .expanded .link {
+left : 48px;
+}
+#users_leaderboard .u5, #users_leaderboard .u10, #users_leaderboard .u15, #users_leaderboard .u20 {
+margin-bottom : 61px;
+}
+#users_leaderboard .user .link .icon {
+display : block;
+width : 34px;
+}
+input.styled {
+display : none;
+}
+select.styled {
+position : absolute;
+top : 110px;
+height : 30px;
+right : 10px;
+width : 109px;
+z-index : 5;
+}
+.select {
+font-family : octin-college, sans-serif;
+font-style : normal;
+font-weight : 400;
+color : #f8d805;
+height : 38px;
+position : absolute;
+right : 0;
+top : 107px;
+width : 102px;
+line-height : 38px;
+padding : 0 0 0 20px;
+background : url(/images/desktop/dropdown.png) no-repeat;
+overflow : hidden;
+}
+.standings {
+width : 280px;
+margin : 0 auto;
+}
+.standings_header {
+width : 100%;
+}
+.standings_header img {
+width : 100%;
+}
+.description {
+display : none;
+}
+.challenge {
+padding-bottom : 20px;
+}
+
+.player .location {width:105px; white-space: nowrap; overflow:hidden;}
+
+input.styled { display: none; } 
+
+select.styled { position: absolute; top:109px; height:30px; right:10px; width: 109px; opacity: 0; filter: alpha(opacity=0); z-index: 5; } 
+
+.disabled { opacity: 0.5; filter: alpha(opacity=50); }
+
+}
+/*-------------------------------------------------------------*/
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width:400px) {
+	
+	.rules_title{background:url(/images/desktop/rules_header.png) 0px 60% no-repeat; margin-left:20px; height:120px;}
+	.rules_food{display:none;}
+	.rules_content{font-family:Tahoma, sans-serif; margin:0px 3%; background:#fff; color:#000; padding:33px;}
+	.rules_head{font-weight:700; font-size:12px; text-align:center;}
+	#bww.rules .col_container .wrapper {padding-bottom:3%;}
+	
+	.challenges_container{padding-top:30px; padding-bottom:48px; min-width:300px;}
+	.challenges_header img {width:90%; margin:0px 3% 14px 3%;}
+	.challenges_float{display:none;}
+	.challenges_container .chImg{ padding-bottom:4%; margin:1% 10%; width:80%;}
+	
+	.four_oh_four{margin:0px auto; padding-bottom:22px; min-width:320px; }
+	.four_oh_four_image {width:90%; display:block; padding-top:30px; margin:0px 5%;} 
+	.fourbtn{  position:static; top:51%;display:block; background:url(/images/404_arrow.png) top no-repeat; height:109px; width:280px; left:47%; margin:40px auto 20px auto;}
+	.fourbtn:hover{ background-position: bottom; }
+	
+	.footer .base{line-height:normal;}
+	
+	.col_container .wrapper{
+		background:url(/images/mobile/low_texture.jpg) repeat-x bottom;	
+		
+
+	}
+	
+.footer .menu {
+	
+	background:none;
+}	
+	
+	.footer .social{
+		margin:40px auto 0px auto;	
+	}
+	
+	.divider{
+		height:4px;
+		width:320px;
+		margin:5px auto;
+		background:url(/images/mobile/divider.png) no-repeat center;	
+	}
+
+	.cokeSmall{
+		height:60px;
+		padding-top:10px;
+		padding-bottom:10px;	
+	}
+	
+	.headline .mobile img{
+		width:100%;	
+	}
+	
+	.header .menu {
+		height:72px;	
+		width:100%;
+		min-width:230px;
+		background:url(/images/mobile/menu_texture.jpg) top;
+	}
+	
+	.header .menu a{
+		text-align:center;
+		font-family: ff-basic-gothic-web-pro,sans-serif;
+		font-style: normal;
+		font-weight: 700;
+		color:#000;
+		font-size:13px;
+		width:49%;
+		float:left;
+		text-decoration:none;
+		line-height:36px;
+	}
+	
+		#bww .how .poster{
+			height:205px;
+			background:url(/images/mobile/posters.jpg) no-repeat;	
+		}
+		
+		.footer{
+			padding-top:20px;
+		}
+		
+		#bww .leader .poster{
+			height:205px;
+			background:url(/images/mobile/posters.jpg) no-repeat -321px 0px;	
+		}
+		
+		#bww .challenge .poster{
+			height:205px;
+			background:url(/images/mobile/posters.jpg) no-repeat -640px 0px;	
+		}
+
+		#bww .col_container {
+			background:url(/images/mobile/top_loop.jpg) repeat-x top;	
+		}
+
+		#bww .col_container .col{
+		width:320px;
+		margin:0px auto;
+		height:414px;
+		}
+	
+		.top{
+		display:block;
+		background:url(/images/mobile/topgrad.png) #000 no-repeat bottom;
+		}
+	
+		#bww.subpage .header {background:none; height:72px;}
+	
+		#bww .header{
+			background:url(/images/mobile/bww_header.jpg) no-repeat top;
+			height:424px;	
+			background-position:50% 72px;
+		}
+		
+		#subpage .header{
+			height:55px;
+		}
+		
+
+		.coke_brand{
+			width:90%;
+			margin:0px auto;
+		}
+		
+		.coke_brand img{
+			width:100%;
+			padding-top:21px;
+			padding-bottom:32px;
+		}
+		
+		.top .content{
+			width:60%;	
+			margin:0px auto;
+			
+		max-width:250px;	
+		min-width:201px;
+	
+		}
+.m, .l{
+	border-right:1px solid #ccc;	
+}
+		
+.headline{
+	width:100%;	
+}
+.top .menu{
+	background:#272727;
+	height:45px;
+	min-width:268px;
+}
+		
+.top .menu a{
+	color:#fff;
+	line-height:45px;	
+	padding-left:18px;
+	padding-right:18px;
+}
+
+}
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width:976px) {
+	.headline .mobile{display:none;}
+	
+	.rules_title{background:url(/images/desktop/rules_header.png) no-repeat; margin:0px auto; width:720px; height:90px;}
+	.rules_food{position:absolute; background:url(/images/desktop/top_food.png) no-repeat; height:180px; left:556px; top:-107px; width:190px;}
+	.rules_content{width:654px; position:relative; font-family:Tahoma,sans-serif; margin:0px auto 33px auto; background:#fff; color:#000; padding:33px;}
+	.rules_head{font-weight:700; font-size:14px; text-align:center;}
+
+	.challenges_container{width:950px; margin:0px auto; position:relative;	}
+	.challenges_header{padding-bottom:30px;}
+	.challenges_float{position:absolute; width:200px; height:140px; background:url(/images/desktop/challenges_float.png) no-repeat; left:700px; top:-45px;}
+	.challenges_container .chImg{padding-right:25px; padding-bottom:27px;}
+	.challenges_container .nr {padding-right:0px;}
+	
+	#bww.subpage .coke_brand{width:158px; margin-left:22px;}
+	#bww.subpage .coke_brand img{width:135px;}
+	
+	.four_oh_four{position:relative;height:412px; width:650px; margin:0px auto; background:url(/images/desktop/404.png) center no-repeat;}
+	.fourbtn{position:absolute; display:block; background:url(/images/404_arrow.png) top no-repeat; height:109px; width:280px; left:323px; top:231px;}
+	.fourbtn:hover{ background-position: bottom; }
+	
+	.standings #users_leaderboard.challenge .user .link {top:6px; left:57px;} 
+	.standings #users_leaderboard.challenge .user .link img {width:auto;} 
+	.standings{width:930px; margin:0px auto;}
+	.standings .wrap {overflow:hidden; height:303px; position:relative;}
+	.standings .players{ float:left; background:url(/images/desktop/players.png) no-repeat  8px 0px ; margin-right:16px; padding-top:25px; width:457px; }
+	.standings .restaurants{ float:left; background:url(/images/desktop/restaurants.png)  8px 0px  no-repeat; width:457px;  padding-top:25px;  }
+	.standings .challenges{  background:url(/images/desktop/challenges.png) 8px 0px no-repeat; padding-top:25px; margin-top:30px;}
+	.standings .standings_header { position:relative; width:950px; margin-bottom:22px; margin-top:14px;}
+	.standings .player, .standings .restaurant, .standings .challenge{position:relative;}
+	.standings .nbtn {cursor:pointer; width:75px; height:29px; background:url(/images/nfive.png) top no-repeat; float:right; margin-right:17px; margin-top:10px;}
+	.standings .nbtn:hover, .standings .pbtn:hover{background-position:bottom;}
+	.standings .pbtn {display:none; cursor:pointer;  width:75px; height:29px; background:url(/images/pfive.png) top no-repeat; float:left; margin-left:10px; margin-top:10px;}
+	.standings .challenge {background:url(/images/desktop/trophy.jpg) no-repeat 99% 110%; min-height:335px; margin-bottom:80px;}
+	.standings .challenge .description { width:250px; position: absolute; left:317px; font-size:12px; }
+	
+	input.styled { display: none; } select.styled { position: absolute; top:34px; height:30px; right:40px; width: 109px; opacity: 0; filter: alpha(opacity=0); z-index: 5; } .disabled { opacity: 0.5; filter: alpha(opacity=50); }
+
+	
+	.select {
+		
+		font-family:octin-college, sans-serif;
+		font-style:normal;
+		font-weight:400;
+		color:#F8D805;
+		height:38px;
+	  position: absolute;
+	  right:5px;
+	  top:30px;
+	  width: 102px;
+		line-height:38px;
+	  padding: 0 24px 0 20px;
+	  background: url(/images/desktop/dropdown.png) no-repeat;
+	  overflow: hidden;
+	}
+	
+			.standings #users_leaderboard {
+		 	 font-family: octin-college,sans-serif;
+		 	 font-style: normal;
+		 	 font-weight: 400;
+		 	 z-index: 1;
+		 	 width:100%;
+		 	 padding-bottom:4px;
+			}
+		
+			.standings #users_leaderboard .user {
+		  	font-family: ff-basic-gothic-web-pro,sans-serif;
+		  	font-style: normal;
+		  	font-weight: 500;
+		  	width: 433px;
+		  	height: 48px;
+		  	padding: 5px;
+		 	background-image: url(/images/desktop/leaderboard_wide.png);
+		  	margin: 0 5px 3px;
+		  	position: relative;
+		  	z-index: 2;
+			}
+			
+			
+			.standings #users_leaderboard.challenge .user {
+		 	background-image: url(/images/desktop/long_challenge.png);
+			width:700px;
+			}
+		
+			.standings #users_leaderboard .user .name { 
+			  font-size: 16px;
+			  color: #000;
+			}
+			
+			.standings #users_leaderboard .user .location {
+			  font-size: 11px;
+			  color: #636363;
+			  text-decoration:none;
+			}
+			
+			.standings #users_leaderboard .user .info {
+			  left: 119px;
+			  position: absolute;
+			  top: 12px;
+			}
+			
+			.standings #users_leaderboard.restaurant .user .info {
+			  left: 71px;
+			  position: absolute;
+			  top: 18px;
+			}			
+			.standings #users_leaderboard .user .link {
+			  display: block;
+			  width: 34px;
+			  position: absolute;
+			  top: 10px;
+			  left: 71px;
+			  background-color: #fff;
+			}
+			
+			.standings #users_leaderboard .user .link .icon {
+			  display: block;
+			  width: 34px;
+			}
+			
+			.standings #users_leaderboard .rank_text {
+			  font-size: 37px;
+			  width: 35px;
+			  color: #000;
+			  left:20px;
+			  top:5px;
+			  position: absolute;
+			  display: block;
+			  font-family: octin-college,sans-serif;
+			  font-style: normal;
+			  font-weight: 400;
+			}
+			
+			.standings #users_leaderboard .user .points {
+			  width: 84px;
+			  height: 42px;
+			  background:url(/images/desktop/big_box.png) no-repeat #393939;
+			  position: absolute;
+			  right: 17px;
+			  top: 9px;
+			  padding: 0px 5px;
+			}
+			
+			.standings #users_leaderboard .user .points .text {
+			  font-family: octin-college,sans-serif;
+			  font-style: normal;
+			  font-weight: 400;
+			  font-size: 30px;
+			  line-height: 43px;
+			  float: right;
+			  color: #f8d805;
+			}
+			.challenge .items {
+				width: 300px;
+				margin: 0px auto;
+			}
+			.standings #scvngr {
+				color: #3B5998;
+				font-family: Tahoma, sans-serif;
+				font-size: 11px;
+				height: 25px;
+				width: 134px;
+				margin: 0px auto;
+				top: 6px;
+			}
+			.standings #scvngr #icon {
+				background-image: url("/images/svngrICON.png");
+				background-position: 0 0;
+				background-repeat: no-repeat;
+				display: block;
+				float: left;
+				height: 25px;
+				width: 35px;
+			}
+		
+			.standings #scvngr #totalC {
+				background-color: #EFEFEF;
+				background-position: 0 0;
+				border-bottom: 1px solid #CAD4E5;
+				border-right: 1px solid #CAD4E5;
+				border-top: 1px solid #CAD4E5;
+				float: left;
+				height: 14px;
+				margin-top: 3px;
+				padding: 1px 5px;
+				text-align: center;
+			}
+			.standings #scvngr #txt {
+				display: block;
+				float: left;
+				padding: 5px 0 5px 10px;
+				text-align: center;
+			}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+.footer{ padding-top:35px; }
+.footer .menu, .footer .bww_locator, .footer .social{ display:block; float:left; padding:0px; margin:0px;}
+.footer .base{ margin-top:13px; }
+.footer .menu{
+	margin-left:63px;	
+}
+.footer .bww_locator{
+	margin-left:82px;	
+}
+.footer .social{
+	margin-left:90px;	
+}
+.divider{
+	float:left;	
+	width:4px;
+	height:412px;
+	background:url(/images/desktop/divider.png) 0px 30px no-repeat;
+}
+#bww{
+	background:url(/images/desktop/texture_top.jpg) no-repeat 50% 493px #f8d805;	
+}
+.menuContainer{
+	width:960px;
+	margin:0px auto;	
+}
+#bww .header{
+	background:url(/images/desktop/bww_header.jpg) no-repeat 50% 0px;
+	height:368px;
+	width:100%;
+	min-width:970px;
+}		
+
+#bww.subpage{
+	
+	background:url(/images/desktop/texture_top.jpg) no-repeat 50% 127px #f8d805
+}
+
+#bww.subpage .header {
+	height:55px;
+	background:url(/images/desktop/banner.png) no-repeat top;
+}
+		
+#bww .how .poster{
+	height:188px;
+	background:url(/images/desktop/posters.png) no-repeat;	
+}
+		
+#bww .leader .poster{
+	height:192px;
+	background:url(/images/desktop/posters.png) no-repeat -321px 0px;	
+	}
+#bww .challenge .poster{
+	height:194px;
+	background:url(/images/desktop/posters.png) no-repeat -640px 0px;	
+}
+.top .content{	
+	margin:30px auto 0px auto;
+	width:400px;
+}	
+.headline{
+	width:auto;	
+	float:left;
+	margin-top:0px;
+	height:100px;
+	width:650px;
+	background:url(/images/desktop/headline.png) -30px -21px no-repeat;
+}
+.top .menu{
+	background-image:none;
+}
+
+.header .menu{
+	width:618px; 
+	margin:0px auto;
+}
+.footer .base .container{
+	width:975px;
+	margin:0px auto;
+}
+.base .content{
+	margin-left:36px;
+	float:left;
+	margin-right:20px;
+}
+.header .menu a{
+	height:21px;
+	padding-left:7px;
+	padding-right:7px;
+	text-decoration:none;
+	color:#000;
+	font-family: ff-basic-gothic-web-pro,sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size:13px;
+	border-right:1px solid #e4bc0b;
+	border-left:1px solid #f3d663;
+
+}
+.header .menu a:hover{
+	color:#df0b15;
+}
+.header .menu .last{
+	border-right:none;
+}
+.header .menu .first{
+	border-left:none;	
+}
+.col{
+	margin:0px auto;
+	width:320px;
+}
+.top{
+	display:block;
+	background:url(/images/desktop/coke_background_loop.jpg) #000;
+}
+#bww .col_container .col{
+	float:left;
+}
+#bww .col_container{
+	width:975px;	
+	margin:0px auto;
+}
+#bww .top{
+	height:127px;
+	width:100%;
+}
+.foot_container{
+	width:975px;
+	margin:0px auto;
+}
+.headline{
+	float:left;
+}
+.coke_brand{
+	width:180px;
+	float:left;	
+	top:-20px; /*ie7Fix*/
+}
+.coke_brand img{
+	width:165px;
+	margin-top:10px;
+	margin-right:30px;	
+}
+.top .content{
+	width:975px;
+	margin:0px auto;
+	height:480px;	
+}
+.headline .c,
+.headline .b {
+	float:left;
+}
+.cokeSmall{
+	float:left;	
+	display:block;
+	margin-top:2px;
+	width:162px;
+	height:32px;
+	margin-top:45px;
+	margin-left:-80px;
+}
+.top .menu{
+	float:right;
+	width:300px;
+}
+}

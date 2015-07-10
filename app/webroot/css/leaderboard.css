@@ -1,0 +1,98 @@
+/**
+ * Global
+ **/ 
+.inline-block {
+  display: -moz-inline-stack;
+  display: inline-block;
+}
+
+.ie6 .inline-block, .ie7 .inline-block {
+  /* ie hacks */
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+
+/**
+ * Element Specific
+ **/
+#users_leaderboard {
+  font-family: octin-college,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  z-index: 1;
+}
+
+#users_leaderboard .user {
+  font-family: ff-basic-gothic-web-pro,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  width: 260px;
+  height: 35px;
+  padding: 5px;
+  background-image: url('/img/leaderboard_background.png');
+  margin: 0 5px 5px;
+  position: relative;
+  z-index: 2;
+}
+
+#users_leaderboard .user .name { 
+  font-size: 14px;
+  color: #000;
+}
+
+#users_leaderboard .user .location {
+  font-size: 12px;
+  color: #636363;
+}
+
+#users_leaderboard .user .info {
+  left: 77px;
+  position: absolute;
+  top: 6px;
+}
+
+#users_leaderboard .user .link {
+  display: block;
+  width: 34px;
+  position: absolute;
+  top: 5px;
+  left: 35px;
+  background-color: #fff;
+}
+
+#users_leaderboard .user .link .icon {
+  display: block;
+  width: 34px;
+}
+
+#users_leaderboard .rank_text {
+  font-size: 30px;
+  width: 35px;
+  color: #000;
+  position: absolute;
+  display: block;
+  font-family: octin-college,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#users_leaderboard .user .points {
+  width: 59px;
+  height: 33px;
+  background-color: #393939;
+  position: absolute;
+  right: 5px;
+  top: 6px;
+  padding: 0px 5px;
+}
+
+#users_leaderboard .user .points .text {
+  font-family: octin-college,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  float: right;
+  color: #f8d805;
+}

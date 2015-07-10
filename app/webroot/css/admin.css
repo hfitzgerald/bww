@@ -1,0 +1,94 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: Trebuchet, Tahoma, Arial, sans-serif;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 22px;	
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+h4 {
+	font-size: 16px;
+}
+
+h5 {
+	font-size: 14px;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+.inactive {
+	display: none;
+}
+
+.image_column {
+	width: 44px;
+}
+
+#container {
+	width: 960px;
+	margin: 50px auto;
+	color: #444;
+}
+
+#navigation {
+	width: 200px;
+	float: right;
+}
+
+#week_info span {
+	display: block;
+}
+
+.user_icon, .challenge_icon {
+	width: 45px;
+}
+
+table {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	border-right: 1px solid #999;
+	border-left: 1px solid #999;
+	border-collapse: collapse;
+	width: 100%;
+}
+tr{
+	background: #dfdfdf;
+}
+tr:nth-child(odd){
+	background: #fff;
+}
+th{
+	padding: 4px 8px;
+	background: #666666;
+	color: #fff;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	text-align: left;
+	font-weight: normal;
+	font-size: 11px;
+}
+td{
+	padding: 6px 8px;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	text-align: left;
+}
+td:first-child {
+	border-left: none;
+}
+tr:hover{
+	background: #cfcfcf;
+}
